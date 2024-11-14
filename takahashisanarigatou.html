@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)file:///C:/Users/sirat/Downloads/landing-page-redesign.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroupSync - グループワークの記録・共有をスムーズに</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        /* ヘッダー部分 */
+        .header {
+            background-color: #003366;
+            padding: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 15vh;
+        }
+
+        .header h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+        }
+
+        /* お知らせボックス */
+        .event-box {
+            background-color: #bfdcef;
+            color: #003366;
+            border: #003366 solid 4px;
+            padding: 1rem;
+            margin: 2rem auto;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        /* セクションタイトルバー */
+        .index-bar {
+            background-color: #003366;
+            color: white;
+            padding: 1rem;
+            margin: 2rem 0;
+        }
+
+        /* メインコンテンツ */
+        .content-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* マンガセクション */
+        .manga-section {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .manga-section img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        /* 機能説明セクション */
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature-card {
+            background-color: #f8fafc;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .feature-card h3 {
+            color: #003366;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #bfdcef;
+            padding-bottom: 0.5rem;
+        }
+
+        /* CTAボタン */
+        .cta {
+            background-color: #003366;
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #48bb78;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 1.5rem;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #38a169;
+        }
+
+        /* レスポンシブデザイン */
+        @media (max-width: 768px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>GroupSync</h1>
+        <img src="file:///C:/api/placeholder/150/50" alt="ロゴ">
+    </header>
+
+    <div class="event-box">
+        毎日の授業をもっと活発に。グループワークをもっとスムーズに。
+    </div>
+
+    <main class="content-wrapper">
+        <section class="index-bar">
+            <h2>開発の経緯</h2>
+        </section>
+
+        <div class="manga-section">
+            <img src="file:///C:/api/placeholder/600/300" alt="問題解決のマンガ">
+            <div class="problem-solution">
+                <h3>授業でこんな経験ありませんか？</h3>
+                <p>・体調不良で授業を休んでしまい、グループワークの内容が分からない...</p>
+                <p>・課題の進捗状況が把握できない...</p>
+                <p>・グループメンバーと予定が合わず、対面での打ち合わせが難しい...</p>
+                <h3>⇒ そんな問題を解決します！</h3>
+            </div>
+        </div>
+
+        <section class="index-bar">
+            <h2>主な機能</h2>
+        </section>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>授業内容の確認</h3>
+                <p>グループでの話し合いの内容や決定事項を時系列で確認できます。休んでしまっても、すぐに内容を把握できます。</p>
+            </div>
+            <div class="feature-card">
+                <h3>情報共有機能</h3>
+                <p>資料や課題の進捗状況をリアルタイムで共有。メンバー全員が最新の情報を確認できます。</p>
+            </div>
+            <div class="feature-card">
+                <h3>進捗管理</h3>
+                <p>グループワークの進み具合を可視化。誰がどの作業を担当しているのかが一目で分かります。</p>
+            </div>
+            <div class="feature-card">
+                <h3>コミュニケーション機能</h3>
+                <p>オンラインでグループメンバーと気軽にコミュニケーションが取れます。</p>
+            </div>
+        </div>
+
+        <section class="index-bar">
+            <h2>使い方</h2>
+        </section>
+
+        <div class="usage-steps">
+            <div class="feature-card">
+                <h3>簡単3ステップ</h3>
+                <p>1. 大学のメールアドレスでログイン</p>
+                <p>2. 参加している授業を選択</p>
+                <p>3. グループワークの内容を確認・共有</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="cta">
+        <h2>さっそく始めてみましょう！</h2>
+        <p>大学のメールアドレスで簡単登録</p>
+        <a href="file:///C:/Users/sirat/Downloads/landing-page-redesign.html#" class="cta-button">無料で始める</a>
+    </section>
+
+
+</body></html>
